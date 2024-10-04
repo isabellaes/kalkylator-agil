@@ -4,20 +4,32 @@
   height: 100vh;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  background-color: rgb(206, 206, 206);
+}
+
+.title {
+  margin-bottom: 50px;
+  color: rgb(132, 44, 132);
 }
 
 .kalkylator {
   display: flex;
   flex-direction: column;
-  height: 20em;
-  width: 20em;
-  background-color: aqua;
+  align-items: center;
+  padding-top: 10px;
+  height: 30em;
+  width: 30em;
+  background-color: whitesmoke;
+  border: 2px solid gray;
 }
 
 .display {
-  background-color: blue;
-  height: 3em;
-  width: 100%;
+  background-color: rgb(182, 180, 180);
+  height: 4em;
+  width: 80%;
+  border-radius: 3px;
+  margin-bottom: 20px;
 }
 .content {
   display: flex;
@@ -35,20 +47,21 @@
 
 .number-btn {
   background-color: plum;
-  padding: 1em;
-  margin: 0.3em;
+  padding: 2em;
+  margin: 0.7em;
+  cursor: pointer;
 }
 .operator-btn {
   background-color: rgb(166, 221, 160);
-  padding: 1em;
-  margin: 0.3em;
-  width: 4em;
+  padding: 20px;
+  margin: 5px 0 5px 20px;
+  cursor: pointer;
 }
 .equal-btn {
   background-color: rgb(160, 213, 221);
-  padding: 1em;
-  margin: 0.3em;
-  width: 4em;
+  padding: 2em;
+  margin: 0.2em;
+  cursor: pointer;
 }
 
 .flex-center {
