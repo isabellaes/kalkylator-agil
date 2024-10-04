@@ -3,3 +3,5 @@ function subtract(number1: number, number2: number) {
 
   return subtractResult;
 }
+
+export default subtract;
